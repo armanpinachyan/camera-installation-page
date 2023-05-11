@@ -1,0 +1,733 @@
+
+@media (max-width: 1400){
+    .page3 .container .boxs {
+        flex-wrap: nowrap;
+    }
+
+
+}
+
+
+@media (max-width: 1200px){
+
+    .page6 .container .boxs{
+        margin: 0 auto;
+    }
+
+    .page6 .container .boxs .box{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        justify-content: center !important;
+        
+    }  
+
+    .page6 .container .boxs .box2{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    
+    .page1 .container .boxs .box{
+        width: 22%;
+    }
+
+    
+    .page2 .boxs .box{
+        width: 29%;
+    }
+
+   
+
+}
+
+
+@media (max-width: 995px){
+
+    header .logo{
+        width: 46px;
+        height: 46px;
+    } 
+
+    header .menuteg{
+        font-size: 14px;
+    }
+
+
+    header .fa-phone{
+        font-size: 14px;
+    }
+    
+    header .number{
+        font-size: 14px;
+    }
+    
+    header .telegram i{
+        font-size: 14px;
+    }
+    
+    header .whatcapp i{
+        font-size: 14px;
+    }
+
+
+    header .menu-logo nav{
+        position: absolute;
+        top: 100%;
+        background: rgba(0, 0, 0, .5);
+        left: 0;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: all .2s linear;
+        padding-bottom: 400px;
+    }
+
+
+    header .mediamenu{
+        display: block;
+        color: white;
+        font-size: 16px;
+        border: none !important;
+        padding: 0 !important;
+         margin: 0 !important;
+         text-decoration: none !important;
+    }
+
+    header .mediamenu:hover{
+        color: #FF6900;
+    }
+
+    header .mediamenu1{
+        padding-top: 30px !important;
+        padding-bottom: 10px !important;
+    }
+
+    header .menu-logo nav.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        transition: all .2s linear;
+    }
+
+
+    header .logo{
+        width: 40px;
+        height: 40px;
+    } 
+
+
+    header .menu-logo nav a{
+        display: block;
+        margin: 10px 0;
+        padding: 5px;
+        color: white;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+
+
+    header .menu-logo{
+        align-items: normal !important;
+        justify-content: space-between !important;
+    }
+
+    .fa-bars{
+        display: initial;
+        position: relative;
+        top: 10px;
+        left: 50px;
+    }
+
+    
+    .fa-x.active{
+        display: initial;
+        position: relative;
+        top: 10px;
+        left: 50px;
+    }
+
+    header .icons{
+        margin-top: 21px;
+    }
+
+    .page1 .heading{
+        font-size: 40px;
+    }
+
+    .page1 .heading2{
+        font-size: 20px;
+    }
+
+    .page1 .container .boxs .box{
+        margin-top: 20px ;
+        width: 44%;
+    }
+
+    .page1 .container .boxs .box h4{
+        font-size: 50px;
+        padding-top: 50px !important;
+    }
+
+    .page1 .container .boxs .box p{
+        padding-top: 18px;
+    }
+
+
+    .page2 .heading{
+        font-size: 30px;
+    }
+
+    .page2 .heading2{
+        font-size: 22px;
+    }
+
+    .page2 .boxs .box{
+        width: 29%;
+    }
+
+    .page2 .box-orange .content{
+        display: none !important;
+    }
+
+    .page3 .container .boxs{
+        flex-wrap: wrap;
+    }
+
+    .page3 .container .boxs .box{
+        margin: 0 auto !important;
+    }
+
+     .page3 .container .boxs .box2 .text1{
+        margin-left: 0 !important;
+        margin: 0 auto !important;
+        padding-top: 50px !important;
+        padding-left: 35px !important;
+        text-align: center;
+        font-size: 16px;
+        
+    }
+
+    .page3 .container .boxs .box2 .butonbox{
+        position: relative;
+        left: 45px;
+    }
+
+    .page3 .container .boxs .box .orange{
+        display: none;
+    }
+
+    .page3 .container .boxs .box .image{
+        display: initial !important;
+        width: 400px !important;
+        height: 400px !important;
+       margin-left: -60px;
+    }
+
+    
+    .page6 .container .boxs{
+        flex-wrap: wrap;
+        display: block !important;
+        justify-content: center;
+        margin-left: 110px !important;
+    }
+
+    .page6 .container .boxs{
+        justify-content: center;
+        margin-left: 170px !important;
+    }
+
+   
+.page10 .container .inner .box{
+    width: 40%;
+}
+
+   
+}
+
+
+@media (max-width: 876px){
+
+    .page8 .responsive .slicer{
+        left: 80px !important;
+    }
+
+ 
+}
+
+
+@media (max-width: 776px){
+    .page2 .heading{
+        font-style: 26px;
+    }
+
+    .page2 .heading2{
+        font-size: 20px;
+    }
+
+    .page2 .boxs .box{
+        width: 28%;
+    }
+
+    
+
+    .page3 .heading{
+        font-size: 30px;
+    }
+
+    .page3 .container .boxs .box2 .butonbox .btn5{
+        position: relative;
+        top: 20px;
+    }
+
+    .page3 .container .boxs .box .image{
+        display: initial !important;
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .page4 .container .heading{
+        font-size: 35px !important;
+    }
+
+    .page5 .container .heading{
+        font-size: 35px !important;
+    }
+
+    .page6 .container .heading{
+        font-size: 35px !important;
+    }
+
+    .page6 .container .boxs{
+        justify-content: center;
+        margin-left: 110px !important;
+    }
+
+
+    .page7 .heading{
+        font-size: 35px !important;
+    }
+    
+    .page7 .container .heading2{
+        font-size: 30px;
+    }
+
+    .page7 .container h3{
+        font-size: 16px;
+    }
+
+
+    .form-floating{
+        width: 270px;
+    }
+
+    .page8 .container .heading{
+        font-size: 30px;
+    }
+
+    .page8 .responsive .slicer{
+        left: 80px !important;
+    }
+
+
+   .page9 .map .form .contact span{
+    font-size: 16px;
+   }
+
+    .page9 .map .form .contact a{
+        font-size: 16px;
+    }
+
+
+   .page10 .container .heading{
+    font-size: 30px;
+}
+
+.page10 .container .inner .box{
+    width: 40%;
+}
+
+footer .heading{
+    font-size: 30px;
+}
+   
+}
+
+
+
+@media (max-width: 586px){
+
+    header  .number{
+       display: none;
+    }
+
+    .fa-bars{
+        display: initial;
+        position: relative;
+        top: 10px;
+        left: 0px;
+    }
+
+    
+    .fa-x.active{
+        display: initial;
+        position: relative;
+        top: 10px;
+        left: 0px;
+    }
+
+    header .fa-phone{
+        color: #FF6900;
+        font-size: 20px;
+        padding-right: 15px;
+    }
+
+    header .icons{
+        margin-top: 21px;
+        padding-right: 10px;
+    }
+
+    .page1 .heading{
+        font-size: 30px;
+    }
+
+    .page1 .heading2{
+        font-size: 20px;
+    }
+
+
+    .page1 .container .boxs .box{
+        margin-top: 20px ;
+        width: 37%;
+    }
+
+    .page1 .container .boxs .box h4{
+        font-size: 40px;
+        padding-top: 40px !important;
+    }
+
+    .page1 .container .boxs .box p{
+        padding-top: 13px;
+    }
+    
+
+    .page2 .heading{
+        font-size: 20px !important;
+    }
+
+    .page2 .heading2{
+        font-size: 16px;
+    }
+
+    .page2 .boxs .box{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .page2 .box-orange .white{
+        width: 90% !important;
+        margin: 0 auto !important;
+    }
+
+
+    .page2 .box-orange .white .boxtop{
+        width: 60%;
+        margin-left: 10px;
+        margin: 0 !important;
+        padding: 0  !important;
+        
+    }
+
+    
+
+    .page2 .box-orange .white .boxtop img{
+        width: 100% !important;
+    }
+
+    .page2 .box-orange .white2{
+        padding-bottom: 20px;
+        padding-top: 30px;
+        padding: 10px 10px !important;
+     }
+
+     .page2 .box-orange .white span{
+        font-size: 12px;
+     }
+
+     .page2 .box-orange .white h2{
+        font-size: 12px;
+     }
+     .page2 .box-orange .white .image{
+        width: 130px;
+        height: 130px;
+     }
+
+     .page2 .box-orange .white .image img{
+        width: 100px ;
+        height: 100px;
+     }
+
+     .page2 .box-orange .white{
+        padding: 10px 10px !important;
+        
+     }
+
+     .page2 .box-orange .white3{
+        padding-top: 20px !important;
+        padding-bottom: 40px !important;
+     }
+
+     .page2 .box-orange .white4{
+        padding: 10px 10px !important;
+     }
+
+     .page2 .box-orange .white4 .image{
+        padding: 15px !important;
+        position: relative;
+        left: -30px !important ;
+     }
+
+    .page2 .box-orange .white .box1 p{
+        display: none;
+    }
+
+
+    
+    .page2 .white .boxstop::-webkit-scrollbar {
+    width: 7px;
+    background-color: white;
+  }
+  
+  /* Track */
+  .page2 .white .boxstop::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .page2 .white .boxstop::-webkit-scrollbar-thumb {
+    background: #FF6900; 
+    border-radius: 10px;
+  }
+
+
+
+    .page2 .white .boxstop{
+        width: 300px;
+        height: 300px;
+        display: block !important;
+        overflow: auto !important;
+        position: relative;
+    }
+
+    .page2 .white .boxstop2{
+        display: block !important;
+    }
+
+    .page3 .heading{
+        font-size: 22px;
+    }
+
+
+    .page3 .container .boxs .box .image img{
+        width: 200px !important;
+        height: 200px !important;
+        margin-left: -45px;
+    }
+
+    
+
+    .page4 .container .heading{
+        font-size: 25px !important;
+    }
+
+    .page4 .container .boxs{
+        gap: 20px !important;
+    }
+
+    .page5 .container .heading{
+        font-size: 25px !important;
+    }
+
+    .page5 .container p{
+        font-size: 15px;
+    }
+
+    .page6 .container .heading{
+        font-size: 25px !important;
+    }
+
+    .page6 .container .boxs{
+        margin-left: 130px !important;
+      
+    }
+
+
+    .page6 .container .boxs .box{
+        width: 200px;
+        height: 200px;
+    }
+
+    .page6 .container .boxs .box img{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: -60px;
+    }
+
+    .page6 .container .boxs .box .camera1{
+        width: 170px;
+        height: 170px;
+        position: relative;
+        left: -101px;
+        top: -50px;
+    }
+
+    .page6 .container .boxs .box p{
+        font-size: 15px;
+        top: 0px;
+    }
+
+
+    .page7 .heading{
+        font-size: 20px !important;
+    }
+
+    .page7 .container .heading2{
+        font-size: 25px;
+    }
+
+    .page8 .container .heading{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .page8 .responsive{
+        left: 20px !important;
+    }
+
+    .slick-dots {
+        width: 60% !important;
+    }
+    .slick-slider {
+        width: 60% !important;
+    }
+
+    .page8 .responsive .slicer{
+        left: 10px !important;
+    }
+
+
+    .page8 .container .responsive img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .page8 .container .responsive .orange:hover img{
+        position: relative;
+       top: -20px !important;
+       left: 30px !important;
+       border-radius: 20px !important; 
+       width: 200px !important;
+       height: 200px !important;
+       transition: all .10s linear !important;
+   }
+  
+
+
+
+    .page8 .container .responsive .orange{
+        width: 200px !important;
+        height: 200px !important;
+        background-color: #FF6900;
+        border-radius: 20px;
+    }
+
+
+    .slick-next{
+        width: 40px !important;
+        height: 40px !important;
+        top: 150px !important;
+        left: 300px !important;
+    }
+
+    .slick-prev{
+        width: 40px !important;
+        height: 40px !important;
+        top: 150px !important;
+        left: -80px !important;
+
+    }
+
+
+   .page9 .heading{
+    font-size: 25px;
+   }
+
+   .page9 .map .form{
+    display: none !important;
+   }
+
+   .page9 .mapsmedia{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+}
+
+.page9 .contact2 a{
+    color: #FF6900;
+     font-size: 20px;
+ }
+
+ .page9 .contact2{
+     color: #FF6900;
+     font-size: 20px;
+     display: initial !important;
+     position: relative;
+     left: 45px;
+     top: 20px;
+ }
+
+   .page10 .container .heading{
+    font-size: 25px;
+    }
+
+    .page10 .container p{
+        font-size: 18px;
+    }
+
+    .page10 .container .inner .box{
+        width: 37%;
+    }
+
+    .page10 .container .inner .box h3{
+        font-size: 40px;
+    }
+
+    .page10 .container .inner .box p{
+        font-size: 14px;
+    }
+
+    footer .heading{
+        font-size: 25px;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+
+}
+
+
+@media (max-width: 400px){
+    .slick-next{
+        width: 40px !important;
+        height: 40px !important;
+        top: 150px !important;
+        left: 210px !important;
+    }
+
+    .slick-prev{
+        width: 40px !important;
+        height: 40px !important;
+        top: 150px !important;
+        left: -60px !important;
+
+    }
+
+}
